@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Checkout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>0ec2f974-16c7-4a69-946f-009e12313977</testSuiteGuid>
+   <testCaseLink>
+      <guid>017e80d2-6014-43a0-ba33-96fbd9eafb44</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Checkout_Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fc692cf0-189b-49af-b8d7-2e82486e40e4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test_Checkout</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fc692cf0-189b-49af-b8d7-2e82486e40e4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>First Name</value>
+         <variableId>c2d0cf19-6d63-4568-908c-e1377fb4c0b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc692cf0-189b-49af-b8d7-2e82486e40e4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Last Name</value>
+         <variableId>bf8b3eca-eba1-44b5-b66d-d126c8a5096b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc692cf0-189b-49af-b8d7-2e82486e40e4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Zip</value>
+         <variableId>368b2f52-54ac-48ac-8aa5-a4b40cd44511</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>355ed6d2-c210-4770-bdd8-56d18be15923</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Login_LockedOut</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2811fbea-ac20-49c0-a850-1433c08cc5ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b9f5ce1f-612b-4e4f-97b9-208a64876eaf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6b68acaf-137b-4d99-891b-e874aa63723f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
